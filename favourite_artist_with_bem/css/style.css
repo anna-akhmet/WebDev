@@ -1,4 +1,10 @@
+@import url("newstyle.css");
+
 .header-container__title, .text-section__title {
 	color: white;
-	background: black;
+	background-color: black;
 }
+
+
+
+
