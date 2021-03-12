@@ -1,5 +1,4 @@
 .header-container__title, .text-section__title {
-	color: red;
-	background-color: blue;
+	outline: 3px solid red; 
 	
 }

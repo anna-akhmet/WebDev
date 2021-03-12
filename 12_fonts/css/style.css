@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap');
+
+.heading {
+	font-size: 50px;
+	font-weight: normal;
+	font-style: italic;
+	font-family: 'Nunito', sans-serif;
+}
+.paragraph {
+	font-family: 'Roboto', sans-serif;
+}
+
+.paraghraph-two {
+	font-family: 'Nunito', sans-serif;
+}

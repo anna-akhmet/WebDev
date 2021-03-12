@@ -1,0 +1,18 @@
+@font-face {
+	src: url(../font/grotesque.ttf);
+	font-family: 'grotesque-one';
+	font-weight: normal;
+}
+
+.heading {
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'grotesque-one';
+}
+.paragraph {
+	font-family: 'grotesque-one'
+}
+
+.paraghraph-two {
+	font-family: 'grotesque-one'
+}

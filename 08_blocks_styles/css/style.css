@@ -1,0 +1,16 @@
+header.header {
+	width: 500px;
+	height: 200px;
+	background-color: lightgreen;
+	background-image: url(../img/kot.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.big-section {
+	height: 300px;
+	background-image: url(../img/kot.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
