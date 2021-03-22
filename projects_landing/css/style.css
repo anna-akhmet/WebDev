@@ -1,15 +1,34 @@
-@import url(/css/reset.css)
+@import url(reset.css)
 
 * {
 	box-sizing: border-box;
 }
 
-.header-container {
+.header-container__bg-image {
 	width: 100%;
 	height: 100vh;
 	background-image: url(../img/photo.png);
 	background-size: cover;
 	background-position: center;
 	background-color: #D5A537;
+	background-attachment: fixed;
+	filter: blur(.55px);
+	transform-origin: 0% 0%;
 }
 
+
+.header-container__name {
+	position: absolute;
+	z-index: 2;
+}	
+
+
+.main-container {
+	height: 80vh;
+
+}
+
+.footer-container {
+	height: 20vh;
+	
+}
