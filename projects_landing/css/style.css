@@ -1,34 +1,115 @@
-@import url(reset.css)
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/PressStart2P-Regular.ttf);
+	font-family: 'Press Start 2P';
+}
+
+@font-face {
+	font-family: 'grotesque';
+	src: url(grotesque.ttf);
+}
 
 * {
 	box-sizing: border-box;
 }
 
-.header-container__bg-image {
+body {
+	font-size: 0;
 	width: 100%;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: #926520;
+}
+
+.header-container {
 	height: 100vh;
+	background-color: #D5A537;
 	background-image: url(../img/photo.png);
 	background-size: cover;
 	background-position: center;
-	background-color: #D5A537;
 	background-attachment: fixed;
-	filter: blur(.55px);
-	transform-origin: 0% 0%;
+	margin-bottom: -1px;
 }
 
-
 .header-container__name {
-	position: absolute;
-	z-index: 2;
+	color: #090404;
+	height: 75px;
+	line-height: 75px;
+	padding-left: 20px;
+	font-size: 35px; 
+	font-family: 'Press Start 2P', sans-serif;
 }	
-
 
 .main-container {
 	height: 80vh;
+	background-color: #D5A537;
+	background-image: url(../img/photo_blur.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 
+.main-container__about-container, .main-container__homework-links-container {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px 20px 0;
+} 
+
+.main-container__about-container {
+	background-color: rgba(255,255,255,.5);
+	color: #090404;
+	font-size: 20px; 
+	font-family: 'grotesque', sans-serif;
+}
+
+.main-container__about-title {
+	font-size: 25px; 
+	font-family: 'Press Start 2P', sans-serif;
+}
+
+.main-container__homework-links-container {
+	background-color: rgba(9,4,4,.5);
+	color: white;
+	font-size: 35px; 
+	font-family: 'grotesque', sans-serif;
+}
+
+.main-container__homework-title {
+	font-size: 25px; 
+	font-family: 'Press Start 2P', sans-serif;
 }
 
 .footer-container {
 	height: 20vh;
-	
+	background-color: #090404;
 }
+
+.footer-container__logo-container, .footer-container__title-container {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+	line-height: 185px;
+}
+
+.footer-container__logo-container {
+	padding-left: 20px;
+	height: 85%;
+}
+
+.footer-container__title-container {
+	color: white;
+	text-align: right;
+	font-size: 15px; 
+	font-family: 'Press Start 2P', sans-serif;
+	padding-right: 20px;
+}
+
+
