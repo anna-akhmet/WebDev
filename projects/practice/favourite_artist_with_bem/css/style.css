@@ -4,26 +4,3 @@
 	background-color: black;
 }
 
-[data-tooltip] {
-	position: relative;
-}
-
-[data-tooltip]:hover::before {
-	content: attr(data-tooltip);
-	position: absolute;
-	top: 100%;
-	left: 0;
-	right: 0;
-	margin-top: 5 px;
-	padding: 5px;
-	background-color: lightgrey;
-	color: black;	
-}
-
-[href] {
-	outline: 3px solid red;
-}
-
-.header {
-	background-color: green;
-}
