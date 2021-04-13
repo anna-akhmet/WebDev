@@ -18,7 +18,7 @@ body {
 	font-size: 0;
 	width: 100%;
 	font-kerning: normal;
-	text-rendering: optimizeLegibility
+	text-rendering: optimizeLegibility;
 }
 
 a:link {
