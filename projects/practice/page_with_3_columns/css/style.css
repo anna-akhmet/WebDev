@@ -26,6 +26,7 @@ h1 {
 
 .main_container {
 	height: 90vh;
+	text-align: center;
 }
 
 .column {
@@ -33,33 +34,33 @@ h1 {
 	font-size: 0;
 	border: 5px #E5E000 solid;
 	border-radius: 30px;
-	padding: 33px 100px 33px 33px;
+	padding: 33px 100px 0px 33px;
 	width: 400px;
+	margin: 45px 0px;
 	vertical-align: top;
 }
 
-.column.first {
-	margin: 75px 25px 75px 250px;
-}
-
 .column.second {
-	margin: 75px 25px;
-}
-
-
-.column.third {
- 	margin: 75px 250px 75px 25px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 h2 {
-	font-size: 20px;
 	margin-bottom: 41px;
 }
+
+h2, h3, ul  {
+	font-size: 20px;
+	text-align: left;
+}
+
+ul {
+	margin-bottom: 33px;
+}
+
 
 .footer_container, h2 {
 	font-family: 'Noto Sans', sans-serif;
 }
 
-p {
-	font-size: 20px;
-}
+
