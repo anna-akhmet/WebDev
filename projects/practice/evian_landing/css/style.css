@@ -1,0 +1,131 @@
+
+@import url(reset.css);
+
+@font-face {
+	font-family: 'grotesque';
+	src: url(../fonts/grotesque.ttf);
+}
+
+body {
+	font-family: 'grotesque';
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 10vh;
+	color: #E50043;
+	font-size: 50px;
+}
+
+a {
+	color: #E50043;
+	text-decoration: none;
+}
+
+.header-container__link:nth-child(2) {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.header-container__logo {
+	margin-left: 50px;
+}
+
+.header-container__menu {
+	margin-right: 50px;
+}
+
+.hero-container {
+	background-image: url(../img/hero_pic2.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	height: 90vh;
+	width: 100%;
+}
+
+.hero-container__heading {
+	margin: auto;
+	font-size: 100px;
+	color: #E50043;
+	padding-top: 200px;
+}
+
+.about-container {
+	display: flex;
+	height: 55vh;
+}
+
+.about-container__text, .composition-container__section {
+	margin: auto;
+	width: 992px;
+	padding: 24px;
+	border: 3px solid #F8BFC7;
+	border-radius: 20px;
+}
+
+h1, p {
+	font-size: 25px;
+	line-height: 28px;
+}
+
+h1 {
+	margin-bottom: 1em;
+}
+
+.bottles-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.bottle {
+	margin: 0px 50px;
+}
+
+.bottle__caption {
+	text-align: center;
+	margin-top: 42px;
+}
+
+.composition-container {
+	display: flex;
+	height: 65vh;
+}
+
+.composition-container__section {
+	display: flex;
+}
+
+.composition-container__photo {
+	margin: 30px 75px;
+}
+
+.composition-container__text {
+	width: 754px;
+	margin: 30px;
+	margin-left: 0px;
+}
+
+.footer-container {
+	height: 15vh;
+	background-color: #F8BFC7;
+	display: flex;
+	align-items: center;
+}
+
+.footer-container__copyright {
+	color: white;
+	font-size: 50px;
+	margin-left: 50px;
+}
