@@ -24,6 +24,8 @@ body {
 	height: 10vh;
 	color: #E50043;
 	font-size: 50px;
+	position: fixed;
+	background-color: white;
 }
 
 a {
@@ -42,6 +44,10 @@ a {
 
 .header-container__menu {
 	margin-right: 50px;
+}
+
+.header-holder {
+	height: 10vh;
 }
 
 .hero-container {
