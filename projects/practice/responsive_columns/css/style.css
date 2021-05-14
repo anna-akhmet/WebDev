@@ -81,14 +81,9 @@ body {
 	display: flex;
 }
 
-
 .footer-container__copyright h1 {
 	margin: 2.75% auto;
 	font-size: 50px;
 	text-transform: uppercase;
 }
 
-/*
-- make paddings and margins too
-- dispose of height rules
-*/
