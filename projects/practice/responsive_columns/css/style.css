@@ -1,0 +1,94 @@
+@import url(reset.css);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+}
+
+.header-container {
+	background-color: #ECE573;
+}
+
+.header-container__heading {
+	display: flex;
+}
+
+.header-container__heading h1 {
+	margin: 2.75% auto;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.main-container {
+	margin: 3.5% 0;
+}
+
+.main-container__trends {
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+	min-height: 500px;
+	margin: auto;
+	align-items: flex-start;
+}
+
+.main-container__trend {
+	width: calc((100% - 100px)/3);
+	border: 1px solid black;
+	max-width: 332px;
+}
+
+.main-container__trend:nth-child(2) {
+	margin: 0 50px;
+}
+
+.image {
+	padding-bottom: 200%;
+	background-size: cover;
+	background-position: center;
+}
+
+.image.tops {
+	background-image: url(../img/tops.jpg);
+}
+
+.image.colors {
+	background-image: url(../img/colors.jpg);
+}
+
+.image.fabrics {
+	background-image: url(../img/fabrics.jpg);
+}
+
+.description {
+	padding: 7.5% 8.25%;
+	font-size: 20px;
+}
+
+.description h2 {
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+
+.footer-container {
+	background-color: #ECE573;
+}
+
+.footer-container__copyright {
+	display: flex;
+}
+
+
+.footer-container__copyright h1 {
+	margin: 2.75% auto;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+/*
+- make paddings and margins too
+- dispose of height rules
+*/
