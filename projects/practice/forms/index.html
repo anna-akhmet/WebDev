@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Секретные посылки для друзей</title>
+	<meta charset="utf-8">
+	<meta description="сайт сервиса секретных посылок для друзей">
+	<meta keywords="секретные посылки для друзей, тайный санта">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header-container">
+				<nav class="menu">
+					<div class="menu__left-side-container">
+						<a href="#" class="menu__link">Посылка</a>
+						<a href="#" class="menu__link">Упаковка</a>
+						<a href="#" class="menu__link">Подписка</a>
+					</div>
+					<div class="menu__right-side-container">
+						<a href="#" class="menu__link">Меню</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main-container">
+				<div class="form-container">
+					<form action="" class="form">
+						<div class="form__not-button-container">
+							<div class="form__column first">
+								<fieldset class="form__personal">
+									<label for="name">Имя</label>
+									<input type="text" name="name" placeholder="Ира">
+									<label for="email">Электронная почта</label>
+									<input type="email" name="email" placeholder="irina2021@gmail.com">
+									<label for="tel">Номер телефона</label>
+									<input type="tel" name="tel" placeholder="+7 (925) 65-76-456">
+								</fieldset>
+								<fieldset class="form__comment">
+									<label for="comment">Ваш комментарий</label>
+									<textarea name="comment" id=""></textarea>
+								</fieldset>
+							</div>
+							<div class="form__column second">
+								<fieldset class="form__gift-info">
+									<label for="reciever-name">Имя получателя</label>
+									<input type="text" name="reciever-name" placeholder="Маша">
+									<label for="reciever-tel">Номер телефона получателя</label>
+									<input type="tel" name="reciever-name" placeholder="+7 (924) 65-26-956">
+									<label for="gift">Подарок</label>
+									<input type="text" name="gift" placeholder="Самокат черного цвета">
+									<label for="city">Город</label>
+									<input type="text" name="city" placeholder="Москва">
+									<label for="adress">Адрес</label>
+									<input type="text" name="adress" placeholder="ул. Котикова, д. 11, кв. 2">
+									<label for="date">День и время доставки</label>
+									<input type="datetime-local" name="date">
+									<label for="package">Красиво упаковать подарок?</label>
+									<input type="radio" name="package" value="yes">
+									<span>Да</span>
+									<input type="radio" name="package" value="no">
+									<span>Нет</span>
+								</fieldset>
+							</div>
+						</div>
+						<fieldset class="form__submit-button">
+							<input type="submit">
+						</fieldset>
+					</form>
+				</div>
+				<div class="text-popup-container">
+					<h1 class="text-popup-container__text">Ваша посылка уже в пути!</h1>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer-container">
+				<h2 class="footer-container__heading">СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</h2>
+				<h2 class="footer-container__copyright">© 2021</h2>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

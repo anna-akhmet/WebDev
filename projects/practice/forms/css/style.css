@@ -1,0 +1,150 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/grotesque.ttf);
+	font-family: 'grotesque';
+}
+
+html {
+	font-size: 10px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'grotesque'
+}
+
+.header-container {
+	background-color: #F8BFC7;
+}
+
+.menu {
+	display: flex;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding: 3.3rem 5rem 3.4rem;
+}
+
+.menu__left-side-container, .menu__right-side-container  {
+ 	width: 50%;
+}
+
+.menu__right-side-container {
+	text-align: right;
+}
+
+.menu__left-side-container .menu__link {
+	margin-right: 3rem;
+}
+
+.menu__link:link, .menu__link:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.form-container {
+	background-image: url(../img/background.svg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 6.25%;
+	display: flex;
+	height: 63.25vh;
+
+	
+}
+
+.form {
+	width: 60rem;
+}
+
+.form__not-button-container {
+	padding: 3.3rem 3rem;
+	border: 3px solid #FFFFFF;
+	border-radius: 2rem;
+	color: white;
+	background-color: #F8BFC7;
+	display: flex;
+	justify-content: space-between;
+}
+
+label {
+	margin-bottom: 1.6rem;
+}
+
+label, input, textarea, span {
+	line-height: 2.3rem;
+	display: block;
+}
+
+label, span {
+	font-size: 1.9rem;
+	
+}
+
+input {
+	font-family: none;
+	font-size: 2rem;
+	background-color: #F8BFC7;
+	border: none;
+	border-bottom: 1px solid white;
+	margin-bottom: 1.7rem;
+	width: 100%;
+	color: white;
+
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type="radio"], span {
+	display: inline-block;
+}
+
+span, textarea {
+	font-family: none;
+}
+
+
+
+input[type="radio"], input[type="submit"] {
+	width: initial;
+}
+
+textarea {
+	border: none;
+	width: 100%;
+}
+
+
+::placeholder {
+	color: white;
+}
+
+.form__submit-button {
+	width: 20rem;
+	height: 6rem;
+	background: #FEB700;
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+	display: flex;
+	margin:  1rem auto 0;
+}
+
+input[type="submit"] {
+	background: #FEB700;
+	border: none;
+	font-family: 'grotesque';
+	margin: auto;
+	text-transform: uppercase;
+	color: white;
+	cursor: pointer;
+	width: initial;
+}
+
+/*check how border box on all elements 
+has influenced the background sizing*/
