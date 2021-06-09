@@ -50,15 +50,15 @@ body {
 	background-image: url(../img/background.svg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 6.25%;
 	display: flex;
-	height: 63.25vh;
-
-	
+	height: 91vh;	
 }
 
 .form {
 	width: 60rem;
+	min-width: 60rem;
+	margin: auto;
+	margin-left: 5rem;
 }
 
 .form__not-button-container {
@@ -94,11 +94,14 @@ input {
 	margin-bottom: 1.7rem;
 	width: 100%;
 	color: white;
-
 }
 
 ::-webkit-calendar-picker-indicator {
     filter: invert(1);
+}
+
+input[type="radio"], input[type="submit"] {
+	width: initial;
 }
 
 input[type="radio"], span {
@@ -109,15 +112,11 @@ span, textarea {
 	font-family: none;
 }
 
-
-
-input[type="radio"], input[type="submit"] {
-	width: initial;
-}
-
 textarea {
 	border: none;
 	width: 100%;
+	resize: vertical;
+	max-height: 27rem;
 }
 
 
@@ -146,5 +145,28 @@ input[type="submit"] {
 	width: initial;
 }
 
-/*check how border box on all elements 
-has influenced the background sizing*/
+.text-popup-container {
+	background-color: #336FD1;
+	display: flex;
+}
+
+.text-popup-container__text {
+	font-size: 50px;
+	line-height: 57px;
+	text-transform: uppercase;
+	color: #FEB700;
+	margin: 3rem auto 20.4rem;
+}
+
+.footer-container {
+	display: flex;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 2.3rem;
+	padding: 3.3rem 5rem 3.4rem;
+	justify-content: space-between;
+	background-color: #F8BFC7;
+	color: white;
+}
+
+
